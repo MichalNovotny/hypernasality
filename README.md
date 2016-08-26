@@ -1,13 +1,13 @@
 # Hypernasality
-1/3 octave spectra analysis of sustained phonation
+	1/3 octave spectra analysis of sustained phonation
 
 # Example
-Nasality is described using the parameters Fn_mean, Fn_std and Fn_trend. These parameters are 
-evaluated by the function 'nasality.m' which is designed for prolonged vowels /i/ and may be 
-called as:
+	Nasality is described using the parameters Fn_mean, Fn_std and Fn_trend. These parameters are 
+	evaluated by the function 'nasality.m' which is designed for prolonged vowels /i/ and may be 
+	called as:
 
-		[x,Fs]=audioread('prolonged_vowel_i.wav');
-		[Fn_mean, Fn_std, Fn_trend]=nasality(x,Fs)
+			[x,Fs]=audioread('prolonged_vowel_i.wav');
+			[Fn_mean, Fn_std, Fn_trend]=nasality(x,Fs)
 
 # Dependencies
 
