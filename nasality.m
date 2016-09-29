@@ -17,7 +17,9 @@ function [Fn_mean, Fn_std, Fn_trend]=nasality(x, Fs)
 %   Define x and assume Fs=48000Hz;
 %       [x,Fs]=audioread('HC06_2Ri.wav')
 %       [Fn_mean, Fn_std, Fn_trend]=nasality(x)
-
+%
+%  If you find this algorithm useful and wish to reference it in your publications, you can make a reference directly to this article: 
+%  M. Novotny, J. Rusz, R. Cmejla, H. Ruzickova, J. Klempír, E. Ruzicka. (2016). "Hypernasality associated with basal ganglia dysfunction: evidence from Parkinson’s disease and Huntington’s disease, PeerJ, 4: 2530. 
 
  if nargin < 1
      error('myApp:argChk', 'Low number of input arguments')
